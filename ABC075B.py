@@ -1,14 +1,16 @@
+# https://atcoder.jp/contests/abc075/tasks/abc075_b
+
 H, W = (int(i) for i in input().split())
 glid = [[i for i in input()] for i in range(H)]
 
 
 def search(x, y):
     try:
-        if glid[x][y] == '#' and x != -1 and y != -1:
+        if glid[x][y] == '#':
             return 1
         else:
             return 0
-    except:
+    except IndexError:
         return 0
 
 

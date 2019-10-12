@@ -1,3 +1,5 @@
+# https://atcoder.jp/contests/abc088/tasks/abc088_b
+
 N = input()
 a = list(map(int, input().split()))
 a.sort(reverse=True)

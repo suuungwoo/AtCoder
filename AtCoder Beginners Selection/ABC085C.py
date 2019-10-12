@@ -1,3 +1,5 @@
+# https://atcoder.jp/contests/abc085/tasks/abc085_c
+
 N, Y = map(int, input().split())
 x, y, z = -1, -1, -1
 for i in range(N+1):

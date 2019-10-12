@@ -1,3 +1,5 @@
+# https://atcoder.jp/contests/abc087/tasks/abc087_b
+
 A, B, C, X = map(int, [input() for i in range(4)])
 count = 0
 for i in range(A+1):
