@@ -21,8 +21,8 @@ for i in range(H):
         if glid[i][j] == '#':
             ans[i][j] = '#'
         else:
-            li = [(i-1, j-1), (i, j-1), (i-1, j), (i+1, j+1),
-                  (i, j+1), (i+1, j), (i+1, j-1), (i-1, j+1)]
+            li = [(i - 1, j - 1), (i, j - 1), (i - 1, j), (i + 1, j + 1),
+                  (i, j + 1), (i + 1, j), (i + 1, j - 1), (i - 1, j + 1)]
             for x, y in li:
                 ans[i][j] += search(x, y)
 
